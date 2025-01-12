@@ -37,7 +37,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     kotlinOptions {
-        jvmTarget = "18"
+        jvmTarget = JavaVersion.VERSION_1_8
     }
     lintOptions {
         disable 'InvalidPackage'
